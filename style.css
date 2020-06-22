@@ -6,7 +6,7 @@ div{
 a{
     margin: 0;
     text-decoration: none;
-    color: rgb(232, 230, 227);
+    color: lightgrey;
 }
 #right{
     float: right;
@@ -18,12 +18,12 @@ a{
     padding: 10px;
 }
 #element{
-    padding-top: 150px;
+    padding-top: 170px;
 }
 body{
     font-size: small;
     font-family: arial,sans-serif;
-    color: rgb(232, 230, 227);
+    color: lightgrey;
 }
 #text{
     text-align: center;
@@ -36,7 +36,13 @@ html{
 a:hover{
     text-decoration: underline;
 }
-
+button:hover{
+    border-color: white;
+    color: white;
+}
+input:hover{
+    border-color: grey;
+}
 #button-div{
     padding: 30px;
     margin: 0 auto;
@@ -46,26 +52,28 @@ input{
     border-radius: 30px;
     margin-top: 15px;
     width: 30%;
-    height: 40px;
-    border: solid #222;
-    border-width: thin;
-    background-color: #333;
-    caret-color: rgb(232, 230, 227);
+    height: 45px;
+    border: solid thin lightgrey;
+    background-color: rgba(0, 0, 0, 0);
+    caret-color: lightgrey;
 }
 button{
     border-radius: 5px;
     font-size: 14px;
-    height: 45px;
-    border: none;
-    background-color: #333;
-    color: rgb(232, 230, 227);
+    height: 35px;
+    border: solid thin lightgrey;
+    color: lightgrey;
     margin-left: 15px;
+    background-color: rgb(0,0,0,0);
 }
 
 #navbar-bottom{
+    border-top: solid thin lightgrey;
+    margin-left: -10px;
     position:fixed;
     bottom: 0;
     overflow: hidden;
+    background-color: grey;
     width: 100%;
     background-color: #222;
 }
